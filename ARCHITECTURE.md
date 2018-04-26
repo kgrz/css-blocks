@@ -1,7 +1,7 @@
 # CSS Blocks Architecture
 Welcome to css-blocks' architecture document! Here you will learn all about the css-blocks framework design, internals, and related build tooling.
 
-I heavily recommend you review the [CSS Blocks Project README][PROJECT_HOME] for a full overview of the css-blocks project and its public APIs! This document expects you have a good handle on Block syntax and Block composition concepts.
+I heavily recommend you review the [CSS Blocks Project README][README] for a full overview of the css-blocks project and its public APIs! This document expects you have a good handle on Block syntax and Block composition concepts.
 
 I'll give you a chance to review...
 
@@ -297,6 +297,7 @@ The public-facing website and hosted Typedoc API documentation hosted at [www.cs
 The demo application that allows users to play with CSS Blocks syntax and OptiCSS in-browser. Built as a Glimmer application and dog-foods our Glimmer, Ember CLI and Broccoli integrations.
 
 [PROJECT_HOME]: .
+[README]: https://github.com/linkedin/css-blocks/blob/master/README.md
 [CORE]: ./packages/@css-blocks/css-blocks
 [RUNTIME]: ./packages/@css-blocks/runtime
 [JSX]: ./packages/@css-blocks/jsx
