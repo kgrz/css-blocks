@@ -46,7 +46,7 @@ Lets start at the very beginning – a very good place to start! In css-blocks, 
 
 CSS Blocks starts at the entry point template(s) passed to it by your build, and crawls the template dependency trees. Every time we encounter a referenced Block file in a template (remember: the syntax for this changes depending on the templating language), we pass it off to the [BlockFactory](./packages/@css-blocks/core/src/BlockParser/BlockFactory.ts) for parsing. 
 
-The `BlockFactory` parses every Block file discovered into an internally used, intermediate data model that is well indexed, easily searchable, and manages all the complexity of Block composition, inheritance and implementation. This data model is affectionately called a [BlockTree](./packages/css-blocks/src/Block/index.ts). 
+The `BlockFactory` parses every Block file discovered into an internally used, intermediate data model that is well indexed, easily searchable, and manages all the complexity of Block composition, inheritance and implementation. This data model is affectionately called a [BlockTree](./packages/@css-blocks/core/src/BlockTree/index.ts). 
 
 The `BlockFactory` also ensures we only ever have a single instance of each unique Block file's data model at any time, and encapsulates all the logic around Block reference resolution, CSS parsing and preprocessor integration.
 
